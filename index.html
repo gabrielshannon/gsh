@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/stylesGrid.css">
+    <script src="js/jquery.js"></script>
+    <meta charset="utf-8">
+</head>
+
+<body class="home blog">
+    <div class="w3-container">
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span class="w3-button w3-display-topright">&times;</span>
+                    <div class="item-contentModal" style="opacity: 1; transform: scale(1);">
+                        <div class="inner-wrap box" style="width: 100%;">
+                            <div class="card-id">3</div>
+                            <div class="menu-wrap box">
+                                <select class="menuModal">
+                                    <option value="1" slug="about" data-target="pages/firstnight.html">SLMPSNDS, Identity Graphics (1)</option>
+                                    <option value="2" slug="about" data-target="pages/kida.html">ROMANIA TOUR PROMO (good luck kidä)</option>
+                                    <option value="3" slug="about" data-target="pages/tape.html">SLMPSNDS, Tape 001 (2) // sketchbook pages 2018</option>
+                                    <option value="4" slug="about" data-target="pages/sidebyside.html">SLMPSNDS -> SIDEBYSIDE <- (3)</option>
+                                    <option value="5" slug="about" data-target="pages/beach.html">towel / print</option>
+                                    <option value="6" slug="about" data-target="pages/exomoon.html"> SLMPSNDS, nearest@exomoon cover art (4) </option>
+                                    <option value="7" slug="about" data-target="pages/murals.html"> my_mural_and_I </option>
+                                    <option value="8" slug="about" data-target="pages/24hrs.html"> SLMPSNDS, 006! (5) </option>
+                                    <option value="9" slug="about" data-target="pages/closer.html"> OS-tan </option>
+                                    <option value="9" slug="about" data-target="pages/blue.html"> 30/09/2020 </option>
+                                 </select>
+                            </div>
+                            <div data-simplebar="" class="contentModal box">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="grid-demo">
+        <div class="grid"></div>
+    </section>
+
+    <script>
+        $(document).ready(function() {
+            $('.w3-button').click(function() {
+                document.getElementById('id01').style.display = 'none';
+            });
+
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="js/gridMain.js"></script>
+
+</body>
+
+</html>

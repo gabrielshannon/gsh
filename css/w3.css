@@ -1,37 +1,40 @@
-/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
-
-html {
+/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes html {
     box-sizing: border-box
-}
+} */
 
 body {
     margin: 0
 }
 
-button {
+
+/* button {
     width: 20px;
     height: 20px;
     text-align: center;
     border: solid;
     border-width: 1px;
     left: 300px;
-}
+} */
 
+
+/* 
 .expand {
     border-radius: 20px;
     border-width: 0.1px;
-}
+} */
 
-a:active,
+
+/* a:active,
 a:hover {
     outline-width: 0
-}
+} */
 
-abbr[title] {
+
+/* abbr[title] {
     border-bottom: none;
     text-decoration: underline;
     text-decoration: underline dotted
-}
+} */
 
 button,
 input,
@@ -44,12 +47,14 @@ optgroup {
     margin: 0
 }
 
-button,
+
+/* button,
 input {
     overflow: visible
-}
+} */
 
-button,
+
+/* button,
 select {
     text-transform: none
 }
@@ -74,17 +79,14 @@ button:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
     outline: 1px dotted ButtonText
-}
+} */
 
 
-/* End extract */
-
-html,
+/* html,
 body {
     font-family: Verdana, sans-serif;
-    /* font-size: 15px; */
     line-height: 1.5
-}
+} */
 
 .w3-btn,
 .w3-button {
@@ -93,7 +95,6 @@ body {
     display: inline-block;
     padding: top 1px;
     line-height: 20px;
-    /* padding: 2px 2px; */
     width: 20px;
     height: 20px;
     vertical-align: middle;
@@ -112,7 +113,8 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.w3-btn,
+
+/* .w3-btn,
 .w3-button {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -120,7 +122,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none
-}
+} */
 
 .w3-modal {
     z-index: 3;
@@ -138,7 +140,6 @@ body {
 
 .w3-modal-content {
     margin: auto;
-    /* background-color: #fff; */
     position: relative;
     padding: 0;
     outline: 0;
@@ -146,22 +147,26 @@ body {
     border-radius: 5px !important;
 }
 
-.w3-show-block,
+
+/* .w3-show-block,
 .w3-show {
     display: block!important
-}
+} */
 
-.w3-show-inline-block {
+
+/* .w3-show-inline-block {
     display: inline-block!important
-}
+} */
 
-@media (max-width:1205px) {
+
+/* @media (max-width:1205px) {
     .w3-auto {
         max-width: 95%
     }
-}
+} */
 
-@media (max-width:600px) {
+
+/* @media (max-width:600px) {
     .w3-modal-content {
         margin: 0 10px;
         width: auto!important
@@ -193,57 +198,12 @@ body {
     .w3-dropdown-click.w3-mobile .w3-button {
         width: 100%
     }
-}
+} */
 
-@media (min-width:993px) {
+@media (min-width:90px) {
     .w3-modal-content {
         width: 80%
     }
-}
-
-@media (max-width:992px) and (min-width:601px) {
-    .w3-hide-medium {
-        display: none!important
-    }
-}
-
-@media (max-width:992px) {
-    .w3-sidebar.w3-collapse {
-        display: none
-    }
-    .w3-main {
-        margin-left: 0!important;
-        margin-right: 0!important
-    }
-    .w3-auto {
-        max-width: 100%
-    }
-}
-
-.w3-top,
-.w3-bottom {
-    position: fixed;
-    width: 100%;
-    z-index: 1
-}
-
-.w3-overlay {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2
-}
-
-.w3-display-topleft {
-    position: absolute;
-    left: 0;
-    top: 0
 }
 
 .w3-display-topright {
@@ -251,64 +211,4 @@ body {
     position: absolute;
     right: 40px;
     top: 0;
-}
-
-.w3-display-bottomleft {
-    position: absolute;
-    left: 0;
-    bottom: 0
-}
-
-.w3-display-bottomright {
-    position: absolute;
-    right: 0;
-    bottom: 0
-}
-
-.w3-display-middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-}
-
-.w3-display-left {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    transform: translate(0%, -50%);
-    -ms-transform: translate(-0%, -50%)
-}
-
-.w3-display-right {
-    position: absolute;
-    top: 50%;
-    right: 0%;
-    transform: translate(0%, -50%);
-    -ms-transform: translate(0%, -50%)
-}
-
-.w3-display-topmiddle {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%)
-}
-
-.w3-display-bottommiddle {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%)
-}
-
-.w3-display-container:hover .w3-display-hover {
-    display: block
-}
-
-.w3-display-container:hover span.w3-display-hover {
-    display: inline-block
 }

@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             '<div class="item-content">' +
             '<div class="inner-wrap box">' +
-            '<div class="card-id">' + id + '</div>' +
+            '<div class="card-id">' + '</div>' +
 
             '<span class="card-add w3-button w3-display-topright">+</span>' +
             '<span class="card-remove w3-button w3-display-topright">×</span>' +
